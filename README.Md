@@ -1,1 +1,12 @@
 "#WebAPI-Lab" 
+
+Packages installation:
+npm i koa koa-bodyparser koa-json koa-logger koa-router
+npm i @types/koa
+npm i @types/koa-bodyparser
+npm i @types/koa-json
+npm i @types/koa-logger
+npm i @types/koa-router@11.0.2
+npm i koa-passport @types/koa-passport
+npm i passport-http @types/passport-http
+npm install passport-jwt @types/passport-jwt
