@@ -11,7 +11,12 @@ npm i koa-passport @types/koa-passport<br />
 npm i passport-http @types/passport-http<br />
 npm install passport-jwt @types/passport-jwt<br />
 npm i jsonschema<br />
-
+<br />
 Before running the code:<br />
-1. Setup the database
-2. Update config.ts
+1. Setup the database<br />
+2. Update config.ts<br />
+<br />
+Setup the Web Server:<br />
+npx tsc -init<br />
+tsc<br />
+node .\out\<br />
