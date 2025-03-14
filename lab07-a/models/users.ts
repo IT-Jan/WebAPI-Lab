@@ -35,13 +35,13 @@ export const add = async (user:any) => {
     }
 }
 
-export const update = async (id: number, article: any) => {
+export const update = async (id: number, body: any) => {
     let query = "UPDATE users SET ";
     let values: any = { id: id };
     let setClauses: string[] = [];
-    Object.keys(article).forEach((key) => {
+    Object.keys(body).forEach((key) => {
         setClauses.push(`${key} = :${key}`);
-        values[key] = article[key];
+        values[key] = body[key];
       });
     
     query += setClauses.join(', ') + " WHERE id = :id;";
