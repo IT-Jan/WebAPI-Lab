@@ -17,6 +17,7 @@ npm i koa-static @types/koa-static<br />
 Before running the code:<br />
 1. Setup the database<br />
 2. Update config.ts<br />
+3. Create "out" folder<br />
 <br />
 Setup the Web Server:<br />
 npx tsc -init<br />
