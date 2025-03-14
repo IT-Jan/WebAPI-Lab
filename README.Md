@@ -11,6 +11,8 @@ npm i koa-passport @types/koa-passport<br />
 npm i passport-http @types/passport-http<br />
 npm install passport-jwt @types/passport-jwt<br />
 npm i jsonschema<br />
+npm i koa-static @types/koa-static<br />
+npm i koa-mount @types/koa-mount<br />
 <br />
 Before running the code:<br />
 1. Setup the database<br />
