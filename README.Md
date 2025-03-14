@@ -10,3 +10,8 @@ npm i @types/koa-router@11.0.2<br />
 npm i koa-passport @types/koa-passport<br />
 npm i passport-http @types/passport-http<br />
 npm install passport-jwt @types/passport-jwt<br />
+npm i jsonschema<br />
+
+Before running the code:<br />
+1. Setup the database
+2. Update config.ts
