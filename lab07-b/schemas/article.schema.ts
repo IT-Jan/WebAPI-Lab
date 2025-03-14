@@ -19,7 +19,8 @@ export const article = {
         },
         "imageURL":{
             "description": "URL for main image to show in article",
-            "type": "uri"
+            "type": "string",
+            "format": "uri"
         },
         "published":{
             "description": "Is the article published or not",

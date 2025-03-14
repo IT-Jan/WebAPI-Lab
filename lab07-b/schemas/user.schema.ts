@@ -27,7 +27,8 @@ export const user = {
         },
         "avatarurl":{
             "description": "URL for user",
-            "type": "uri"
+            "type": "string",
+            "format": "uri"
         },
         "about":{
             "description": "User's introduction",
