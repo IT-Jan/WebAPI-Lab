@@ -23,3 +23,10 @@ Setup the Web Server:<br />
 npx tsc -init<br />
 tsc<br />
 node .\out\<br />
+
+Lab09 - React & vite & ant design: <br />
+npm init vite@latest front-end
+cd front-end
+npm install antd
+npm install react-router-dom
+npm run dev
