@@ -29,4 +29,5 @@ npm init vite@latest front-end
 cd front-end
 npm install antd
 npm install react-router-dom
+npm install axios
 npm run dev
