@@ -31,4 +31,5 @@ cd front-end
 npm install antd
 npm install react-router-dom
 npm install axios
+npm install js-base64
 npm run dev

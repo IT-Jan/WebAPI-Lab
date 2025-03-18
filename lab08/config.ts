@@ -2,8 +2,8 @@ const config = {
     host: "localhost",
     port: 5432,
     user: "postgres",
-    password: "webapi2025",
-    database: "webapilab",
+    password: "your_password", //Update this parameter
+    database: "your_database", //Update this parameter
     connection_limit:100
 }
 
