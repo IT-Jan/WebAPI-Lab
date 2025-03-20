@@ -24,20 +24,20 @@ npm i eslint<br />
 3. Create "out" folder<br />
 <br />
 <b>Setup the Web Server:</b><br />
-npx tsc -init<br />
-tsc<br />
-node .\out\<br />
+    npx tsc -init<br />
+    tsc<br />
+    node .\out\<br />
 
 <b>React & vite & ant design: </b><br />
-npm init vite@latest front-end
-cd front-end
-npm i antd
-npm i react-router-dom
-npm i axios
-npm i js-base64
-npm run dev
+    npm init vite@latest front-end<br />
+    cd front-end<br />
+    npm i antd<br />
+    npm i react-router-dom<br />
+    npm i axios<br />
+    npm i js-base64<br />
+    npm run dev<br />
 
 <b>Elint: </b><br />
-npm init @eslint/config
-npx eslint .\out\routes\
-npx eslint [the js file within the folder] > [export filename]
+    npm init @eslint/config<br />
+    npx eslint .\out\routes\<br />
+    npx eslint [the js file within the folder] > [export filename]<br />
