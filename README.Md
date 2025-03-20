@@ -10,10 +10,12 @@ npm i @types/koa-logger<br />
 npm i @types/koa-router<br />
 npm i koa-passport @types/koa-passport<br />
 npm i passport-http @types/passport-http<br />
-npm install passport-jwt @types/passport-jwt<br />
+npm i passport-jwt @types/passport-jwt<br />
 npm i jsonschema<br />
 npm i koa-static @types/koa-static<br />
-npm install @koa/cors<br />
+npm i @koa/cors<br />
+npm i -g jest <br />
+npm i supertest<br />
 <br />
 Before running the code:<br />
 1. Setup the database<br />
@@ -28,8 +30,8 @@ node .\out\<br />
 Lab09 - React & vite & ant design: <br />
 npm init vite@latest front-end
 cd front-end
-npm install antd
-npm install react-router-dom
-npm install axios
-npm install js-base64
+npm i antd
+npm i react-router-dom
+npm i axios
+npm i js-base64
 npm run dev
