@@ -16,18 +16,19 @@ npm i koa-static @types/koa-static<br />
 npm i @koa/cors<br />
 npm i -g jest <br />
 npm i supertest<br />
+npm i eslint<br />
 <br />
-Before running the code:<br />
+<b>Before running the code:</b><br />
 1. Setup the database<br />
 2. Update config.ts<br />
 3. Create "out" folder<br />
 <br />
-Setup the Web Server:<br />
+<b>Setup the Web Server:</b><br />
 npx tsc -init<br />
 tsc<br />
 node .\out\<br />
 
-Lab09 - React & vite & ant design: <br />
+<b>React & vite & ant design: </b><br />
 npm init vite@latest front-end
 cd front-end
 npm i antd
@@ -35,3 +36,8 @@ npm i react-router-dom
 npm i axios
 npm i js-base64
 npm run dev
+
+<b>Elint: </b><br />
+npm init @eslint/config
+npx eslint .\out\routes\
+npx eslint [the js file within the folder] > [export filename]
