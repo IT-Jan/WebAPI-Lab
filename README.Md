@@ -27,7 +27,7 @@ npm i eslint<br />
     npx tsc -init<br />
     tsc<br />
     node .\out\<br />
-
+<br />
 <b>React & vite & ant design: </b><br />
     npm init vite@latest front-end<br />
     cd front-end<br />
@@ -36,7 +36,7 @@ npm i eslint<br />
     npm i axios<br />
     npm i js-base64<br />
     npm run dev<br />
-
+<br />
 <b>Elint: </b><br />
     npm init @eslint/config<br />
     npx eslint .\out\routes\<br />
