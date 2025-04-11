@@ -75,7 +75,7 @@ const deleteUser = async (ctx:RouterContext, next: any) => {
 
 router.get('/', basicAuth, getAll);
 router.get('/:id([0-9]{1,})', basicAuth, getById);
-router.post('/', bodyParser(), basicAuth, validateUser, createUser);
+router.post('/', bodyParser(), validateUser, createUser);
 router.put('/:id([0-9]{1,})', basicAuth, bodyParser(), validateUser, updateUser);
 router.delete('/:id([0-9]{1,}), basicAuth', deleteUser);
 
